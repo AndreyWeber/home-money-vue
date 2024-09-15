@@ -36,9 +36,10 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "tests/**/*.ts",
-    "tests/**/*.tsx"
+    "tests/**/*.tsx",
+    "node_modules/bootstrap-vue/esm/components/index.d.ts",
   ],
   "exclude": [
-    "node_modules"
+    "node_modules", "dist"
   ]
 }

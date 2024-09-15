@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid class="my-2">
+  <b-container fluid>
     <b-form
       @submit.prevent="onSubmit"
       @reset.prevent="onReset"
